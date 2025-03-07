@@ -30,5 +30,3 @@ def getHoroscope():
     
     return horoscope_data
 
-
-
