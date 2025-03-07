@@ -13,7 +13,7 @@ source venv/bin/activate
 # Or on Windows
 venv\Scripts\activate
 
-# Install flask
+# Install req
 bin/pip3 install -r requirements.txt
 
 
