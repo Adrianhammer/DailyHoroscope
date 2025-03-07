@@ -1,4 +1,5 @@
 import os
+import horoscope
 from dotenv import load_dotenv
 from twilio.rest import Client
 
@@ -14,6 +15,7 @@ client = Client(account_sid, auth_token)
 from_whatsapp_number = "whatsapp:+14155238886"
 to_whatsapp_number = "whatsapp:+4791166190"
 
-client.messages.create(body="Ahoy Galaxy!",
+
+client.messages.create(body=horoscope.getHoroscope(),
                        from_=from_whatsapp_number,
                        to=to_whatsapp_number)

@@ -15,6 +15,7 @@ venv\Scripts\activate
 
 # Install req
 bin/pip3 install -r requirements.txt
+pip3 install pyaztro
 
 
 
